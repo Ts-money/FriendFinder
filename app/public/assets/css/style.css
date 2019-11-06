@@ -1,0 +1,73 @@
+body{
+    background-color: skyblue;
+    text-align: center;
+}
+
+.jumbotron{
+    background-color: lightgreen;
+}
+
+h1, h2{
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 0.2rem;
+}
+
+.start{
+    margin: 2%;
+}
+
+.container{
+    margin: 2% auto 2% auto;
+}
+
+#rules{
+    padding: 0 40px;
+    font-size: 1.3rem;
+}
+
+label{
+    font-weight: bold;
+}
+
+input.radio{
+    margin: 0 0 0 30px;
+}
+
+.left{
+    background-color: lightpink;
+}
+
+.right{
+    background-color:silver;
+    color: white;
+}
+
+@media screen and (max-width: 1200px) {
+    .right{
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.fixed, .left h1, .right h1{
+    margin: 10% auto 0 auto;
+}
+
+@media screen and (min-width: 992px) {
+    .fixed{
+        position: fixed;
+    }
+}
+
+.example{
+    margin-bottom: 15px;
+}
+
+.photo{
+    margin: 0 auto;
+}
+
+.changeBack{
+    cursor: pointer;
+}
+
